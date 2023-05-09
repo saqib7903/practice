@@ -1,0 +1,21 @@
+#include<bits/stdc++.h> 
+using namespace std;
+
+
+
+int main () {
+
+    int principal , rate , time , simpleinte , compoundinte ; 
+    cin>>principal>>rate>>time;
+    simpleinte = (principal*rate*time) / 100;
+    cout<<simpleinte<<endl;
+    compoundinte = principal*(pow((1+rate/100),time));
+    cout<<compoundinte;
+    return 0;
+
+    
+   
+    
+
+
+}
